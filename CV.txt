@@ -1,0 +1,90 @@
+{
+    "full_name": "Marco Romano",
+    "job_title": "Senior UX/UI Web Developer",
+    "location": "Miami, Florida",
+    "email": "marco.romano@email.com",
+    "phone": "(305) 555-0123",
+    "linkedin": "linkedin.com/in/marcoromano",
+    "professional_summary": "Senior UX/UI Web Developer with over 8 years of experience in full-stack development, data science, and e-commerce solutions. Proven expertise in creating user-friendly, accessible web applications with a focus on interactive design and seamless user experiences.",
+    "technical_skills": [
+        {
+            "category": "Frontend",
+            "skills": "JavaScript, HTML5, CSS3, React, jQuery, Liquid, User Interface Prototyping"
+        },
+        {
+            "category": "Backend",
+            "skills": "Python, Ruby, PHP, Ruby on Rails, Django REST Framework"
+        },
+        {
+            "category": "E-commerce",
+            "skills": "Shopify Plus, WooCommerce, WordPress, Adobe Experience Manager"
+        },
+        {
+            "category": "Design",
+            "skills": "Adobe XD, Adobe Creative Suite, UX Research, UI/UX Design"
+        },
+        {
+            "category": "Development",
+            "skills": "Git, Agile & Waterfall Methodologies, OutSystems, SEO Optimization"
+        }
+    ],
+    "experience": [
+        {
+            "job_title": "Senior UX/UI Web Developer",
+            "company": "TechBridge Solutions",
+            "date_range": "July 2022 - Present",
+            "responsibilities": [
+                "Lead full-stack development initiatives focusing on e-commerce platforms using Shopify Plus and OutSystems",
+                "Drive UX/UI improvements through interactive and visual design principles for cohesive user experiences",
+                "Collaborate with cross-functional teams to ensure functionality, navigation, and performance standards"
+            ]
+        },
+        {
+            "job_title": "Full-Stack Web Developer",
+            "company": "Romano Digital Studio",
+            "date_range": "May 2020 - Present",
+            "responsibilities": [
+                "Develop custom Shopify Plus solutions with focus on UX/UI design principles",
+                "Guide clients through comprehensive design process to create tailored web solutions",
+                "Implement modern web development practices ensuring optimal user experiences"
+            ]
+        },
+        {
+            "job_title": "Web Developer & Content Manager",
+            "company": "SportTech Ventures",
+            "date_range": "January 2021 - July 2022",
+            "responsibilities": [
+                "Managed corporate and venue website development projects ensuring timely delivery",
+                "Coordinated development initiatives between marketing, technology, and content teams",
+                "Implemented SEO and organic search best practices improving site visibility"
+            ]
+        }
+    ],
+    "education": [
+        {
+            "degree": "BS Computer Science",
+            "institution": "Florida International University",
+            "year": "2020",
+            "achievements": [
+                "Focus on Human-Computer Interaction",
+                "Specialized in Machine Learning and AI"
+            ]
+        },
+        {
+            "degree": "UX/UI Design & Development",
+            "institution": "Ironhack",
+            "year": "2018",
+            "achievements": [
+                "Double certification in UX/UI Design and Web Development",
+                "Selected as top student presenter for both programs"
+            ]
+        }
+    ],
+    "certifications": [
+        "Shopify Plus Developer Certification",
+        "UX/UI Design Certification - Ironhack",
+        "Full-Stack Web Development - Ironhack",
+        "Agile & Scrum Master",
+        "Adobe Experience Manager Specialist"
+    ]
+} 

@@ -1,9 +1,2 @@
-# Personal files
-CV.txt
-Cover_Letter.txt
-
 # Environment variables
 .env
-
-# Output directory
-output/

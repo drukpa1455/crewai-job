@@ -1,6 +1,30 @@
 # 🚀 Job Application Automation with CrewAI
 
+<div align="center">
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![CrewAI](https://img.shields.io/badge/CrewAI-0.11.0-orange.svg)](https://github.com/joaomdmoura/crewAI)
+[![OpenAI](https://img.shields.io/badge/OpenAI-API-green.svg)](https://openai.com/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+<p align="center">
+  <strong>🤖 Automate Your Job Applications with AI Agents 📝</strong>
+  <br>
+  <em>Transform your job search with intelligent CV and cover letter customization</em>
+</p>
+
+[Features](#-features) •
+[Installation](#️-installation) •
+[Quick Start](#-quick-start) •
+[Contributing](#-contributing) •
+[Support](#-support)
+
+</div>
+
 An intelligent job application automation system that uses CrewAI and LangChain to customize CVs and cover letters based on job descriptions. The system employs multiple AI agents working together to analyze job postings, tailor application materials, and provide professional feedback.
+
+> 🌟 Perfect for job seekers who want to create tailored applications efficiently while maintaining authenticity and professionalism.
 
 ## ✨ Features
 

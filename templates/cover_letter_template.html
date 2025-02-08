@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{full_name}} - Cover Letter</title>
+    <style>
+        @page {
+            margin: 0;
+            size: letter;
+        }
+
+        :root {
+            --bg-primary: #282a36;
+            --bg-secondary: #44475a;
+            --fg-primary: #f8f8f2;
+            --fg-secondary: #bd93f9;
+            --accent-pink: #ff79c6;
+            --accent-purple: #bd93f9;
+            --accent-green: #50fa7b;
+            --accent-orange: #ffb86c;
+            --accent-cyan: #8be9fd;
+            --comment: #6272a4;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Helvetica Neue', Arial, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-primary);
+            color: var(--fg-primary);
+            line-height: 1.4;
+            padding: 1.75rem;
+            max-width: 800px;
+            margin: 0 auto;
+            min-height: 11in;
+            position: relative;
+            font-size: 0.9rem;
+        }
+
+        .header {
+            margin-bottom: 2.5rem;
+        }
+
+        .personal-info {
+            text-align: right;
+            margin-bottom: 1.5rem;
+        }
+
+        .name {
+            font-size: 1.75rem;
+            color: var(--accent-pink);
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+        }
+
+        .contact-info {
+            color: var(--accent-cyan);
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        .date {
+            margin: 1.5rem 0;
+            color: var(--comment);
+            font-size: 0.9rem;
+        }
+
+        .recipient {
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+            color: var(--fg-primary);
+        }
+
+        .recipient-name {
+            color: var(--accent-pink);
+            font-weight: bold;
+        }
+
+        .recipient-title {
+            color: var(--accent-purple);
+        }
+
+        .company-name {
+            font-weight: bold;
+            color: var(--accent-purple);
+        }
+
+        .salutation {
+            margin-bottom: 1.5rem;
+            color: var(--accent-orange);
+            font-weight: bold;
+            font-size: 1rem;
+        }
+
+        .content {
+            margin-bottom: 1.5rem;
+        }
+
+        .paragraph {
+            margin-bottom: 1.25rem;
+            text-align: justify;
+            line-height: 1.5;
+            color: var(--fg-primary);
+            font-size: 0.9rem;
+        }
+
+        .closing {
+            margin-top: 2rem;
+        }
+
+        .closing-paragraph {
+            margin-bottom: 1.5rem;
+            line-height: 1.5;
+            color: var(--fg-primary);
+            font-size: 0.9rem;
+        }
+
+        .signature {
+            margin-top: 1.5rem;
+            color: var(--accent-green);
+            font-weight: bold;
+            font-size: 1rem;
+            line-height: 1.4;
+        }
+
+        @media print {
+            @page {
+                margin: 0;
+                size: letter;
+            }
+
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 8.5in;
+                height: 11in;
+            }
+
+            body {
+                -webkit-print-color-adjust: exact !important;
+                print-color-adjust: exact !important;
+                padding: 0.6in;
+                margin: 0;
+                height: 100%;
+            }
+
+            .content {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="personal-info">
+            <div class="name">{{full_name}}</div>
+            <div class="contact-info">
+                {{address}}<br>
+                {{city}}, {{state}} {{zip}}<br>
+                {{email}}<br>
+                {{phone}}
+            </div>
+        </div>
+
+        <div class="date">
+            {{date}}
+        </div>
+
+        <div class="recipient">
+            <span class="recipient-name">{{hiring_manager_name}}</span><br>
+            <span class="recipient-title">{{job_title}}</span><br>
+            <span class="company-name">{{company_name}}</span><br>
+            {{company_address}}<br>
+            {{company_city}}, {{company_state}} {{company_zip}}
+        </div>
+
+        <div class="salutation">
+            Dear {{hiring_manager_name}},
+        </div>
+    </div>
+
+    <div class="content">
+        {{#each paragraphs}}
+        <div class="paragraph">
+            {{this}}
+        </div>
+        {{/each}}
+    </div>
+
+    <div class="closing">
+        <div class="closing-paragraph">
+            {{closing_paragraph}}
+        </div>
+        
+        <div class="signature">
+            Sincerely,<br>
+            {{full_name}}
+        </div>
+    </div>
+</body>
+</html> 
