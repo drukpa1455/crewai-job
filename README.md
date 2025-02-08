@@ -22,7 +22,7 @@
 
 </div>
 
-An intelligent job application automation system that uses CrewAI and LangChain to customize CVs and cover letters based on job descriptions. The system employs multiple AI agents working together to analyze job postings, tailor application materials, and provide professional feedback.
+An intelligent job application automation system that uses CrewAI and LangChain to customize CVs and cover letters based on job descriptions. The system employs specialized AI agents working together to analyze job postings and create tailored application materials that maintain authenticity and professionalism.
 
 > 🌟 Perfect for job seekers who want to create tailored applications efficiently while maintaining authenticity and professionalism.
 
@@ -31,7 +31,7 @@ An intelligent job application automation system that uses CrewAI and LangChain 
 - 🔍 **Intelligent Job Analysis**: Automatically extracts key information from job postings including requirements, qualifications, and company culture
 - 📝 **CV Customization**: Tailors your CV to highlight relevant skills and experiences for each job
 - ✉️ **Cover Letter Generation**: Creates personalized cover letters that connect your experience with job requirements
-- 🎯 **Professional Evaluation**: Provides detailed feedback and scoring of your application materials
+- 🎨 **Professional Formatting**: Generates beautifully formatted PDF and JPEG versions of your documents
 - 🤖 **Multi-Agent System**: Utilizes specialized AI agents for different aspects of the application process
 - 💾 **Organized Output**: Saves modified documents with clear, job-specific naming conventions
 
@@ -79,27 +79,26 @@ python job_application_agents.py
 
 ## 🤖 How It Works
 
-The system uses four specialized AI agents:
+The system uses three specialized AI agents working in harmony:
 
 1. **Job Description Crawler** 🕷️
    - Analyzes job postings
    - Extracts key requirements and company information
    - Structures data for other agents
 
-2. **CV Modifier** 📄
+2. **CV Writer** 📄
    - Tailors CV content to match job requirements
    - Emphasizes relevant skills and experiences
-   - Maintains professional formatting
+   - Ensures content authenticity and professionalism
+   - Maintains proper formatting and structure
 
 3. **Cover Letter Writer** ✉️
    - Creates personalized cover letters
    - Connects experience with job requirements
    - Incorporates company culture and values
+   - Maintains professional tone and formatting
 
-4. **Recruiter** 👔
-   - Evaluates modified documents
-   - Provides detailed feedback
-   - Suggests improvements
+Each agent is designed to focus on its specific task while maintaining data consistency and professional standards throughout the process.
 
 ## 🎯 Use Cases
 
@@ -149,11 +148,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🔮 Future Improvements
 
 - [ ] Support for more job board platforms
-- [ ] Additional document formats (PDF, DOCX)
+- [ ] Additional document formats (DOCX, RTF)
 - [ ] Integration with job application APIs
-- [ ] Enhanced evaluation metrics
-- [ ] Custom agent creation interface
 - [ ] Batch processing capabilities
+- [ ] Template customization options
+- [ ] Additional styling themes
 
 ## 📞 Support
 
